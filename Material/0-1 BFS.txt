@@ -1,0 +1,12 @@
+-Used in maze problems 
+-Bfs but with deque 
+-When we have cost of edges as either 1 and 0 or (0 and x )
+-we can have an always sorted queue using deque and logic if cost is 1 then push_back and if cost is 0 then push front
+deque looks like 0001111 always.
+
+Maze / matrix problems 
+Implementation help
+dx[4]={i+0,i+0,i+1,i-1} so dx[4] = {0,0,1,-1};
+relating to above config
+dy[4]={j+1,j-1,j,j} so dy[4] = {1,-1,0,0}
+

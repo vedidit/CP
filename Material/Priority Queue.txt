@@ -1,0 +1,20 @@
+-template<class T> priority_queue< data-type , vector<data-type> ( this is container for implementation ), greater<data-type> (for ordering)> 
+-Allows multiple entries
+
+Using Max Heap priority_queue<int> pq;
+-Order: Descending
+-MAX element at the top
+-example: 9 4 5 6 3 2 3 3 4 5 6
+	  will be 9 6 6 5 5 4 3 3 3 2 
+
+-MinHeap implementation 
+--Order: ascending order
+--2 3 3 3 4 5 5 6 6 9
+--Syntax: priority_queue<int,vector<int>,greater<int> >
+
+
+stl:
+priority_queue<int> pq;
+pq.top() - the min/max priority element
+pq.push()
+pq.pop()

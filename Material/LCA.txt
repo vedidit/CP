@@ -1,0 +1,6 @@
+Lowest Common Ancestor: 
+LCA(a,b) is the first node encountered in a rooted tree with root r
+https://www.spoj.com/problems/LCA/
+1) Brute Force
+2) Square root decomposition
+3) log(n) sparse table

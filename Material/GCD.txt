@@ -1,0 +1,6 @@
+Repeated Subtraction problems can relate to GCD
+Generally when we have a choice to choose some number in array and subtract from any other.Think in terms of GCD also.
+
+Associativity of gcd 
+gcd(a,b,c) = gcd(a,gcd(b,c)) as in recursive solution
+ 
